@@ -53,3 +53,13 @@ console.log(percentageChina3);
 console.log(percentageGermany3);
 console.log(percentageBrazil3);
 
+// Functions Calling Other Functions
+
+const describePopulation = function (country, population) {
+    const percentage = percentageOfWorld1(population);
+    return `${country} has ${population} million people, which is about ${percentage}% of the world`
+}
+
+console.log(describePopulation('Brazil', 216));
+console.log(describePopulation('China', 1441));
+console.log(describePopulation('USA', 332));
