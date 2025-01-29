@@ -64,7 +64,7 @@ console.log(describePopulation('Brazil', 216));
 console.log(describePopulation('China', 1441));
 console.log(describePopulation('USA', 332));
 
-//Introduction to Arrays
+// Introduction to Arrays
 
 const populations = [216, 1441, 332, 83];
 
@@ -79,7 +79,7 @@ const percentages = [
 
 console.log(percentages);
 
-//Basic Array Operations (Methods)
+// Basic Array Operations (Methods)
 
 const neighbours = ['Canada', 'Mexico'];
 
@@ -92,3 +92,13 @@ if (!neighbours.includes('Germany')) {
 
 neighbours[neighbours.indexOf('Mexico')] = 'Republic of Mexico'
 console.log(neighbours);
+
+// Introduction to Objects
+
+const myCountry = {
+    country: 'Brazil',
+    capital: 'Brasilia',
+    language: 'Porguese',
+    population: 216,
+    neighbours: ["Argentina", "Bolivia", "Colombia", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela", "French Guiana"]
+};
