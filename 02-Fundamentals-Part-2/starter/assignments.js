@@ -78,3 +78,17 @@ const percentages = [
 ];
 
 console.log(percentages);
+
+//Basic Array Operations (Methods)
+
+const neighbours = ['Canada', 'Mexico'];
+
+neighbours.push('Utopia');
+neighbours.pop('Utopia');
+
+if (!neighbours.includes('Germany')) {
+    console.log('Probably not a central european country :D')
+}
+
+neighbours[neighbours.indexOf('Mexico')] = 'Republic of Mexico'
+console.log(neighbours);
